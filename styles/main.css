@@ -1,0 +1,30 @@
+
+@import '/styles2/shop.css';
+
+.pageHeader {
+    text-align: center;
+    font-size: 25px;
+    padding: 2rem;
+    background-color:lightgoldenrodyellow;
+}
+
+body {
+    background-color:#795548;
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Even spaces for elements */
+    margin: 10px;
+    
+}
+
+.shop {
+    /* border: 2px dotted green;  */
+    /* padding: 0px 25px 0px 0px; */
+    margin: 0px 15px 0px 15px;
+    flex-basis: 20%;
+    text-align: left;
+}
